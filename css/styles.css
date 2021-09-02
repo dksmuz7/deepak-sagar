@@ -2,6 +2,7 @@
 
 :root {
     --primary:#3DCFD3;
+    --secondary:#070606;
     --dark:#161616;
     --pure:#ffffff;
     --ternary:#898989;
@@ -19,16 +20,19 @@ body{
     -webkit-font-smoothing:antialiased;
 }
 
+
 header {
     background-color: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 100%);
 }
+
 
 .container{
     max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
 
 
 header nav .left a{
@@ -48,12 +52,11 @@ header nav {
 }
 
 header nav .brand {
-    margin-right:3rem ;
+    margin-right:3rem ;    
 }
 
-header nav .brand img{
-    height: 35px;
-}
+
+
 
 .hero {
     padding: 3rem 0;
@@ -92,6 +95,8 @@ header nav .brand img{
 .hero .right {
     margin-top: -7rem;
 }
+
+
 
 section{
     padding: 6rem 0;
@@ -154,6 +159,190 @@ section.about .social a img{
     padding: 0.5rem;
 }
 
+
+.section-heading {
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+}
+
+.section-heading span{
+    color: var(--primary);
+}
+
+.section-heading + p{
+    color: var(--ternary);
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+
+
+section.services {
+    background: var(--light);
+}
+
+section.services .cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+
+section.services .cards-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+section.services .cards-wrapper .card:hover{
+    background: var(--dark);
+}
+
+section.services .cards-wrapper .card img{
+    position:absolute;
+    top:-3.5rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+section.services .cards-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+section.services .cards-wrapper .card:hover h2,section.services .cards-wrapper .card:hover p{
+    color: var(--pure);
+}
+
+section.services .cards-wrapper .card p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.5rem;
+}
+
+
+
+section.project{
+    background: var(--pure);
+}
+
+section.project p{
+    margin-bottom: 5rem;
+}
+
+section.project .cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+
+section.project .cards-wrapper .card{
+    position: relative;
+    height: 250px;
+}
+
+section.project .cards-wrapper .card img{
+    height: 100%;
+    width: 100%;
+}
+
+section.project .cards-wrapper .card .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(61, 207, 211, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--light);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+section.project .cards-wrapper .card:hover .overlay{
+    opacity: 1;
+}
+
+section.project .cards-wrapper .card .overlay a{
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+
+
+
+section.blog{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+    padding-bottom: 12rem;
+}
+
+section.blog p{
+    margin-bottom: 5rem;
+}
+
+section.blog .section-heading{
+    color: var(--pure);
+}
+
+section.blog .cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+}
+
+section.blog .cards-wrapper .card{
+    background: var(--pure);
+}
+
+section.blog .cards-wrapper .card .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.blog .cards-wrapper .card .card-content{
+    padding: 1rem 2rem;
+}
+
+section.blog .cards-wrapper .card .card-content h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section.blog .cards-wrapper .card .card-content a{
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+section.blog .cards-wrapper .card .card-content a:hover{
+    color: var(--primary);
+}
+
+section.blog .cards-wrapper .card .card-content span{
+    color: var(--ternary);
+    font-size: 0.8rem;
+}
+
+section.blog .cards-wrapper .card .card-content p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    margin: 1rem 0;
+}
+
+section.blog .cards-wrapper .card .card-content a.read-more{
+    font-size: 0.8rem;
+}
 
 
 
