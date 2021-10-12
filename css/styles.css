@@ -26,15 +26,15 @@ header {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 100%);
 }
 
-
+/* container */
 .container{
-    max-width: 1152px;
+    max-width: 1080px;/* 1152 */
     padding: 0 15px;
     margin: 0 auto;
 }
 
 
-
+/* nav bar */
 header nav .left a{
     color: var(--pure);
     text-decoration: none;
@@ -57,7 +57,7 @@ header nav .brand {
 
 
 
-
+/* hero */
 .hero {
     padding: 3rem 0;
 }
@@ -102,6 +102,7 @@ section{
     padding: 6rem 0;
 }
 
+/* about */
 section.about .left img {
     height: 450px;
 }
@@ -179,7 +180,7 @@ section.about .social a img{
 }
 
 
-
+/* services */
 section.services {
     background: var(--light);
 }
@@ -228,7 +229,7 @@ section.services .cards-wrapper .card p{
 }
 
 
-
+/* project */
 section.project{
     background: var(--pure);
 }
@@ -280,7 +281,7 @@ section.project .cards-wrapper .card .overlay a{
 
 
 
-
+/* blog */
 section.blog{
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
@@ -345,7 +346,96 @@ section.blog .cards-wrapper .card .card-content a.read-more{
 }
 
 
+/* Contact Us */
+section.contact .cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
 
+section.contact .cards-wrapper .card{
+    text-align: center;
+}
+
+section.contact .cards-wrapper .card img{
+    margin-bottom: 2rem;
+}
+
+section.contact .cards-wrapper .card h1{
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+section.contact .cards-wrapper .card h6{
+    font-size: 1rem;
+    color: var(--ternary);
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+
+section.contact input{
+    padding: 0.5rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+}
+
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact .input-wrap-2 input{
+    margin-bottom: 2rem;
+}
+
+section.contact .input-wrap-2 textarea{
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+}
+
+section.contact .input-wrap-2 textarea:focus,section.contact input:focus{
+    outline: none;
+}
+
+section.contact .btn-wrapper{
+    text-align: center;
+}
+
+
+/* footer */
+footer{
+    background: var(--dark);
+    text-align: center;
+    padding: 4rem 0;
+}
+
+footer .footer-logo{
+    width: 80px;
+    margin-bottom: 2rem;
+}
+
+footer .footer-social{
+    margin-bottom: 2rem;
+    margin-right: -2rem;
+}
+
+footer .footer-social a{
+    margin-right: 1rem;
+}
+
+footer .copyright{
+    color: var(--ternary);
+}
 
 
 
