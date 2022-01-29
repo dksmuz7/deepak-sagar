@@ -27,8 +27,30 @@ html{
 
 header {
     background-color: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 100%);
+    position: relative;
 }
+
+.custom-shape-divider-bottom-1643060221 {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1643060221 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1643060221 .shape-fill {
+    fill:var(--pure);
+}
+
 
 /* container */
 .container{
@@ -63,7 +85,7 @@ header nav .brand {
 
 /* hero */
 .hero {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .hero .left img{
@@ -288,8 +310,8 @@ section.project .cards-wrapper .card .overlay a{
 /* blog */
 section.blog{
     background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
     padding-bottom: 12rem;
+    position: relative;
 }
 
 section.blog p{
