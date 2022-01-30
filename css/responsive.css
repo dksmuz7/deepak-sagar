@@ -59,11 +59,11 @@
         grid-template-columns: repeat(2,1fr);
     }
 
-    section.project .cards-wrapper{
+    section.certi .cards-wrapper{
         grid-template-columns: repeat(2,1fr);
     }
 
-    section.blog .cards-wrapper{
+    section.project .cards-wrapper{
         grid-template-columns: repeat(1,1fr);
     }
 
@@ -124,11 +124,11 @@
         grid-template-columns: repeat(1,1fr);
     }
 
-    section.project .cards-wrapper{
+    section.certi .cards-wrapper{
         grid-template-columns: repeat(1,1fr);
     }
 
-    section.blog {
+    section.project {
         padding-bottom: 7rem;
     }
 

@@ -255,32 +255,32 @@ section.services .cards-wrapper .card p{
 }
 
 
-/* project */
-section.project{
+/* certificates */
+section.certi{
     background: var(--pure);
 }
 
-section.project p{
+section.certi p{
     margin-bottom: 5rem;
 }
 
-section.project .cards-wrapper{
+section.certi .cards-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 2rem;
 }
 
-section.project .cards-wrapper .card{
+section.certi .cards-wrapper .card{
     position: relative;
     height: 250px;
 }
 
-section.project .cards-wrapper .card img{
+section.certi .cards-wrapper .card img{
     height: 100%;
     width: 100%;
 }
 
-section.project .cards-wrapper .card .overlay{
+section.certi .cards-wrapper .card .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -296,78 +296,78 @@ section.project .cards-wrapper .card .overlay{
     transition: all 0.3s ease;
 }
 
-section.project .cards-wrapper .card:hover .overlay{
+section.certi .cards-wrapper .card:hover .overlay{
     opacity: 1;
 }
 
-section.project .cards-wrapper .card .overlay a{
+section.certi .cards-wrapper .card .overlay a{
     color: var(--secondary);
     text-decoration: none;
 }
 
 
 
-/* blog */
-section.blog{
+/* Projects */
+section.project{
     background: var(--dark);
     padding-bottom: 12rem;
     position: relative;
 }
 
-section.blog p{
+section.project p{
     margin-bottom: 5rem;
 }
 
-section.blog .section-heading{
+section.project .section-heading{
     color: var(--pure);
 }
 
-section.blog .cards-wrapper{
+section.project .cards-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 3rem;
 }
 
-section.blog .cards-wrapper .card{
+section.project .cards-wrapper .card{
     background: var(--pure);
 }
 
-section.blog .cards-wrapper .card .img-wrapper img{
+section.project .cards-wrapper .card .img-wrapper img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-section.blog .cards-wrapper .card .card-content{
+section.project .cards-wrapper .card .card-content{
     padding: 1rem 2rem;
 }
 
-section.blog .cards-wrapper .card .card-content h1{
+section.project .cards-wrapper .card .card-content h1{
     font-size: 1rem;
     font-weight: 600;
 }
 
-section.blog .cards-wrapper .card .card-content a{
+section.project .cards-wrapper .card .card-content a{
     color: var(--secondary);
     text-decoration: none;
 }
 
-section.blog .cards-wrapper .card .card-content a:hover{
+section.project .cards-wrapper .card .card-content a:hover{
     color: var(--primary);
 }
 
-section.blog .cards-wrapper .card .card-content span{
+section.project .cards-wrapper .card .card-content span{
     color: var(--ternary);
     font-size: 0.8rem;
 }
 
-section.blog .cards-wrapper .card .card-content p{
+section.project .cards-wrapper .card .card-content p{
     font-family: 'Lato',sans-serif;
     color: var(--ternary);
     margin: 1rem 0;
 }
 
-section.blog .cards-wrapper .card .card-content a.read-more{
+section.project .cards-wrapper .card .card-content a.read-more{
     font-size: 0.8rem;
 }
 
