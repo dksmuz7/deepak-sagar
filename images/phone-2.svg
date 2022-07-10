@@ -1,3 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="80" viewBox="0 0 36 80">
-  <text id="_" data-name="" transform="translate(18 69)" fill="#070606" font-size="80" font-family="FontAwesome"><tspan x="-17.143" y="0"></tspan></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="36"
+   height="80"
+   viewBox="0 0 36 80"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="phone-2.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.8125"
+     inkscape:cx="17.981651"
+     inkscape:cy="75.229358"
+     inkscape:window-width="1356"
+     inkscape:window-height="701"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <text
+     id="_"
+     data-name=""
+     fill="#070606"
+     font-size="80"
+     font-family="FontAwesome"
+     transform="translate(18 69)"><tspan
+       x="-17.143"
+       y="0"
+       id="tspan2"></tspan></text>
 </svg>
