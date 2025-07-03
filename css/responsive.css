@@ -74,15 +74,17 @@
 /* Mobile View */
 @media (max-width:576px){
     .hamberger{
-        right: 2rem;
+        right: 1.3rem;
     }
 
     .hero {
         flex-direction: column;
     }
 
-    .hero .left img{
+    .hero .left .image-crop-wrapper img{
         transform:rotateY(180deg);
+        object-fit: cover;
+        max-width: none;
     }
 
     header .custom-shape-divider-bottom-1643060221 svg {
@@ -99,8 +101,22 @@
 
     .hero .left{
         margin-top: -4rem;
-        margin-right: -9rem;
+        /* margin-right: -9rem; */
         padding-bottom: 6rem;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .hero .left .image-crop-wrapper{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        right: -20%;
     }
 
     section.about .container {
